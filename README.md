@@ -1,4 +1,4 @@
-# MacTracker Puppet Module for Boxen ![Build Status](https://travis-ci.org/dieterdemeyer/puppet-mactracker.png?branch=master)](https://travis-ci.org/dieterdemeyer/puppet-mactracker)
+# MacTracker Puppet Module for Boxen
 
 Install [MacTracker](http://mactracker.ca/), a tool that provides detailed information on every Apple Macintosh computer ever made, including items such as processor speed, memory, optical drives, graphic cards, supported OS versions, and expansion options.
 
