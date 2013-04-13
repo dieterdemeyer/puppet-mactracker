@@ -1,3 +1,15 @@
+# Public: Install MacTracker to /Applications
+#
+# Examples
+#
+#  include mactracker
 class mactracker {
-  anchor { 'Hello_World': }
+
+  $version = '7.1.2'
+
+  package { "MacTracker-${version}":
+    provider => 'compressed_app',
+    source   => "http://mactracker.ca/downloads/Mactracker_${version}.zip",
+  }
+
 }
