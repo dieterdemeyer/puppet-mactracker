@@ -4,10 +4,10 @@
 #
 #  include mactracker
 #  class { 'mactracker':
-#    version => '7.1.5'
+#    version => '7.3'
 #  }
 #
-class mactracker($version='7.1.5') {
+class mactracker($version='7.3') {
 
   package { "MacTracker-${version}":
     provider => 'compressed_app',
